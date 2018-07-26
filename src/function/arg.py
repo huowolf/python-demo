@@ -72,3 +72,8 @@ def people(name,age,*,city,job):
 people('jack', 24,city='beijing',job='Engineer')    
 # people('jack', 24,city='beijing',job='Engineer',zipcode='11000') #非法调用
 
+
+# 定义可变参数和关键字参数的语法：
+# *args是可变参数，args接收的是一个tuple；
+# **kw是关键字参数，kw接收的是一个dict。
+
