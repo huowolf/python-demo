@@ -66,7 +66,7 @@ def people(name,age,*,city,job):
 #使用Tab快捷键定位下一个参数    
 
 #命名关键词参数调用必须给出参数名
-person('jack', 25,'beijing','Engineer')   #非法调用
+#person('jack', 25,'beijing','Engineer')   #非法调用
 
 #只接受city和job参数名字的调用
 people('jack', 24,city='beijing',job='Engineer')    
