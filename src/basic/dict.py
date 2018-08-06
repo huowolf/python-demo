@@ -27,3 +27,15 @@ print(d)
 #dict的key必须是不可变对象
 # key=[1,2]
 # d[key]="a list"
+
+
+#dict() 函数用于创建一个字典
+#创建空字典
+dd=dict()
+print(dd)
+#传入关键字
+dd=dict(a=1,b=2,c=3)
+print(dd)
+# 可迭代对象方式来构造字典
+dd=dict([('one',1),('two',2),('three',3)])
+print(dd)

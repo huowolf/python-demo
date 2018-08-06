@@ -21,7 +21,14 @@ print(classmates)
 
 #删除元素
 classmates.pop(1)
+#['zhangsan', 'lisi', 'wangwu', 'Ada']
 print(classmates)
+
+classmates.remove('Ada')
+#['zhangsan', 'lisi', 'wangwu']
+print(classmates)
+
+print(len(classmates))
 
 #更新元素
 classmates[1]='lisi2'
