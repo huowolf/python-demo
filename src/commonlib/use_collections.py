@@ -48,6 +48,20 @@ od['y']=2
 od['x']=3
 print(list(od.keys()))
 
+
+'''
+Remove and return a (key, value) pair from the dictionary.
+Pairs are returned in LIFO order if last is true or FIFO order if false.
+
+popitem(self, last=True)
+'''
+#last为True是LIFO,即为栈，反之是FIFO，即为队列
+#默认last为True，默认表现为栈
+#栈：后进先出，所以是弹出最后加入的那个元素
+print(od.popitem())             #('x', 3)
+#对列：先进先出，所以是弹出最先加入的那个元素
+print(od.popitem(last=False))   #('z', 1)
+
 #Counter是一个简单的计数器
 c=Counter()
 for ch in 'programming':

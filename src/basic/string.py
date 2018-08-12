@@ -8,6 +8,11 @@ print(bytes(s, encoding = "utf8"))
 # bytes to str  
 print(str(b, encoding = "utf-8")) 
 
+#ord()函数获取字符的整数表示
+print(ord('A'))
+#chr()函数把编码转换为对应的字符
+print(chr(65))
+
 #Unicode表示的str通过encode()方法可以编码为指定的bytes
 print('ABC'.encode('ascii'))
 print('中文'.encode('utf-8'))
