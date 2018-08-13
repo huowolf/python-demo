@@ -1,5 +1,6 @@
 from io import BytesIO
 
+#BytesIO实现了在内存中读写bytes
 #BytesIO写操作：
 f=BytesIO()
 f.write('中文'.encode(encoding='utf_8'))

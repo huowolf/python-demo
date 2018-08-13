@@ -1,5 +1,6 @@
 from io import StringIO
 
+#StringIO顾名思义就是在内存中读写str,常用作临时缓冲。
 #把str写入StringIO
 f=StringIO()
 f.write('hello')
