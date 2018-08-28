@@ -40,3 +40,8 @@ str1='zhangsan example !!!'
 str2='exam'
 print(str1.find(str2))
 print(str1.find(str2,10))
+
+#替换
+str = "hallohallo"
+new=str.replace('ha','he')
+print (new)
